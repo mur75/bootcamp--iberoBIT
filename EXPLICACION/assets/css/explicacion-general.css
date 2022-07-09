@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(55, 173, 209);
+}
+
+.tmano-imagen{
+    width: 150px;
+    height: auto;
+}
+
+.texto1{
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 0ch;
+    text-align: center;
+}
+
+.img-red{
+    border-radius: 50%;
+}
+
+.mapa{
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    border: 49px solid;
+}
+
+.container-redes{
+    border-radius: 50%;
+    margin: 0 35px;
+    color: rgb(204, 22, 22);
+}
+.texto-oferta{
+    color: rgb(255, 240, 245);
+}
+a{
+    text-decoration: none;
+    color: rgb(106, 23, 184);
+}
+td,tr{
+    border: 15px;
+}

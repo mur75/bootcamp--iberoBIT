@@ -1,0 +1,214 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');   
+
+.navbar-restaurante{
+    background-color: rgba(22, 21, 21, 0.521);
+    
+}
+
+.navbar-restaurante *{
+    color: #fff;
+}
+
+ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.size-imglogo{
+    width: 70px;
+}
+
+.logo{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    margin-top: 27px;
+}
+
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 85px;
+    margin-top: 50px;
+}
+
+.container1 div p{
+    padding-top: 25px;
+    padding-right: 25px;
+    text-align: justify
+}
+
+.size-user{
+    width: 70px;
+}
+
+.lista-menu{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    
+}
+
+.navbar-restaurante{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;  
+}
+
+.logo{
+    display: flex;
+    justify-content: left;
+    justify-content: space-around;
+}
+
+.sizetomate{
+    width: 300px;
+}
+
+.sizelentejas{
+    width: 300px;
+}
+
+.sizeverdura{
+    width: 300px;
+}
+
+.container-recipes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.size-logo2{
+    width: 100px;
+}
+
+.container-footer{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.container-recipes{
+    text-align: justify;
+}
+
+.container-logo2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    flex-direction: column;
+}
+
+/* .container-tomate{
+    width: 200px;
+}
+.container-lentejas{
+    width: 200px;
+}
+.container-verdura{
+    width: 200px;
+} */
+
+.container-recipes div{
+    width: 30%;
+}
+
+.container-recipes div img{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+[data-pie-pagina=container-footer]{
+    background-color: rgb(221, 30, 87);
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 25px;
+}
+
+/*[data-pie-pagina=container-footer] section{
+    border: 2px solid chocolate;
+}*/
+
+[data-pie-pagina=container-footer] section img{
+    border-radius: 50%;
+}
+
+.btn-mapa{
+    width: 350px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: rgb(226, 43, 165);
+    font-size: 2rem;
+}
+[data-pie-pagina=container-footer] :nth-child(2){
+    display: flex;
+    flex-direction: column;
+}
+
+.mapa-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn-mapa{
+    transition: all 2s;
+    text-align: center;
+}
+.btn-mapa:hover{
+    width: 500px;
+    background-color: rgb(95, 62, 216);
+    font-weight: bold;
+}
+
+a:visited{
+    color: rgb(236, 240, 23);
+}
+
+a:active{
+    color: rgb(209, 26, 19);
+}
+body*{
+    font-family: 'Caveat', cursive;
+}
+
+.sizeimghistoria{
+    width: 300px;
+}
+
+.container-hitoria{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 85px;
+    justify-content: space-evenly
+}
+
+.container-hitoria div{
+    display: flex;
+    flex-direction: column;
+}
+
+.continer-colab img{
+    width: 70px;
+}
+
+
+
+
+
